@@ -11,7 +11,7 @@
 # Escribir el algoritmo que calcula el importe de las horas extra que hay que pagar, a partir del salario mensual bruto y 
 # de la cantidad de horas extra. Se podrá suponer que el cálculo siempre se usa para una cantidad de horas superior a 8.
 
-Algoritmo horas_extra 
+Algoritmo pago
 
 Entrada 
     sal_mensual : REAL # Valor del salario mensual bruto
@@ -39,4 +39,4 @@ Realizacion
 
     Resultado <- sal_hora * (horas_125 * 1.25 + horas_150 * 1.50)
 
-fin horas_extra
+fin pago
